@@ -1,0 +1,104 @@
+.titulo{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.submit {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-btn {
+    -webkit-box-shadow: 5px 6px 9px -2px #000000; 
+    box-shadow: 5px 6px 9px -2px #000000;
+    color: #D4B4A0;
+    background-color: #0F0F0F;
+    padding: 2px 35px;
+    border-radius: 14px;
+    font-size:35px;
+    font-family: 'IM Fell English SC', serif;
+}
+
+.second{
+    margin-left: 10px;
+}
+
+.container {
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+html, 
+body { 
+  background-color: #FFAB7A !important;
+}
+
+  
+.form-line{
+    flex-direction: row;
+    display: flex;
+    margin: 3vh;
+}
+
+.form-control{
+    font-family: 'IM Fell English SC', serif;
+    border-radius: 0.5rem !important;
+}
+
+.titulo-txt{
+    font-family: 'IM Fell English SC', serif;
+    color: #D4B4A0;
+}
+
+.subtitulo-txt{
+    font-family: 'IM Fell English SC', serif;
+    color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .login-container{
+        padding: 0;
+    }
+
+    .titulo-txt {
+        font-size:70px;
+        -webkit-text-stroke: 2px #0F0F0F;
+    }
+
+    .titulo {
+        flex-direction: column;
+    }
+    .subtitulo-txt {
+       font-size:25px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {  
+
+    .login-container{
+        padding: 100px;
+    }
+
+    .titulo-txt {
+        font-size:120px;
+        -webkit-text-stroke: 3px #0F0F0F;
+    }
+    
+    .subtitulo-txt {
+        margin-left: 50px;
+        font-size:50px;
+    }
+
+    
+    .titulo {
+        flex-direction: row;
+    }
+}
